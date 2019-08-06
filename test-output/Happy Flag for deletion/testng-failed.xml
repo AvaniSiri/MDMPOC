@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Happy Flag for deletion]">
+  <test thread-count="5" name="Happy_Flag_Deletion(failed)">
+    <classes>
+      <class name="com.mendix.test.MaterialScript">
+        <methods>
+          <include name="Happy_Flag_Deletion" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mendix.test.MaterialScript -->
+    </classes>
+  </test> <!-- Happy_Flag_Deletion(failed) -->
+  <test thread-count="5" name="Process_Information_Check_Syndication(failed)">
+    <classes>
+      <class name="com.mendix.test.MaterialScript">
+        <methods>
+          <include name="process_Information_Check_GlobalID_Extend" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mendix.test.MaterialScript -->
+    </classes>
+  </test> <!-- Process_Information_Check_Syndication(failed) -->
+  <test thread-count="5" name="Material_Create_Syndication_Check(failed)">
+    <classes>
+      <class name="com.mendix.test.MaterialScript">
+        <methods>
+          <include name="material_Create_Syndication_Check_GlobalId" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mendix.test.MaterialScript -->
+    </classes>
+  </test> <!-- Material_Create_Syndication_Check(failed) -->
+</suite> <!-- Failed suite [Happy Flag for deletion] -->
